@@ -6,6 +6,7 @@ def losuj(n):
     for i in range(10):
         tab.append(randint(1, 20))
     return tab
+
 tab = losuj(10)
 print(tab)
 
@@ -24,15 +25,13 @@ funkcji sprawdzających, realizujących następujące operacje:
 
 
 # Zad 1.1
-def szukanieprzez7(tab):
+def podzielneprzez7(tab):
     for i in tab:
         if i % 7 == 0:
             return True
     return False
 
-
-print("Czy w tablicy jest liczba podzielna przez 7: ", end="")
-print(szukanieprzez7(tab))
+print(f"Czy w tablicy jest liczba podzielna przez 7: {podzielneprzez7(tab)}")
 
 
 # Zad 1.2
@@ -42,19 +41,17 @@ def wiekszeod5(tab):
             return False
     return True
 
-print("Czy wszystkie liczby są wieksze od 5: ", end="")
-print(wiekszeod5(tab))
+print(f"Czy wszystkie liczby są wieksze od 5: {wiekszeod5(tab)}")
 
 
 # Zad 1.3
-def czy2(tab):
+def dzielenieprzez2(tab):
     for i in tab:
         if i != 2:
             return True
     return False
 
-print("Czy jest liczba różna od 2: ", end="")
-print(czy2(tab))
+print(f"Czy jest liczba różna od 2: {dzielenieprzez2(tab)}")
 
 
 # Zad 1.4
@@ -77,5 +74,4 @@ def przez4(tab):
             return True
     return False
 
-print("Czy jest liczba podzielna przez 4: ", end="")
-print(przez4(tab))
+print(f"Czy jest liczba podzielna przez 4: {przez4(tab)}")
