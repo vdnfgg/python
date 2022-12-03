@@ -24,7 +24,6 @@ przedmiotów liczbami losowymi i sortuje obie tablice równolegle wg kryterium o
 wartość/masa). Sprawdź działanie programów z zadań 1,2.
 
 4. Napisz program do rozwiązywania problemu plecakowego, którego wynikiem będzie wypisanie na ekranie:
-
 a. w pierwszym wierszu-elementów umieszczonych w plecaku
 b. w drugim wierszu- elementów, które się w plecaku nie znalazły
 """

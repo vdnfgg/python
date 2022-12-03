@@ -36,5 +36,6 @@ def wydawanie(R):
 
 try:
     wydawanie(146.29)
+    wydawanie(168.69)
 except:
     print("Error")

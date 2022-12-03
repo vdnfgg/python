@@ -55,6 +55,7 @@ print(f"Czy jest liczba różna od 2: {dzielenieprzez2(tab)}")
 
 
 # Zad 1.4
+
 # losowanie tablicy <0, 33)
 def losuj033(n):
     tab = []
@@ -67,6 +68,7 @@ tab033 = losuj033(11)
 
 print("Tablica <0,33): ", end="")
 print(tab033)
+
 
 def przez4(tab):
     for i in tab:
