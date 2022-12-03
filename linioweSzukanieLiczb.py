@@ -20,8 +20,7 @@ funkcji sprawdzających, realizujących następujące operacje:
 
 1.3 sprawdzenie, czy w n-elementowej tablicy calkowitych liczb losowych znajduje się liczba różna od 2
 
-1.4 sprawdzenie, czy w 11-elementowej tablicy całkowitych liczb losowych z przedziału <0,33) 
-wszystkie elementy nie są podzielne przez 4
+1.4 sprawdzenie, czy w 11-elementowej tablicy całkowitych liczb losowych z przedziału <0,33) wszystkie elementy nie są podzielne przez 4
 """
 
 
