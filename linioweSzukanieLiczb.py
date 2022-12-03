@@ -20,7 +20,8 @@ funkcji sprawdzających, realizujących następujące operacje:
 
 1.3 sprawdzenie, czy w n-elementowej tablicy calkowitych liczb losowych znajduje się liczba różna od 2
 
-1.4 sprawdzenie, czy w 11-elementowej tablicy całkowitych liczb losowych z przedziału <0,33) wszystkie elementy nie są podzielne przez 4
+1.4 sprawdzenie, czy w 11-elementowej tablicy całkowitych liczb losowych z przedziału <0,33) 
+wszystkie elementy nie są podzielne przez 4
 """
 
 
@@ -71,7 +72,7 @@ print(tab033)
 def przez4(tab):
     for i in tab:
         if i % 4 == 0:
-            return True
-    return False
+            return False
+    return True
 
-print(f"Czy jest liczba podzielna przez 4: {przez4(tab)}")
+print(f"Czy wszystkie elementy tablicy są nie podzielne przez 4: {przez4(tab033)}")
