@@ -71,4 +71,3 @@ def zad31(a, b):
     return a, b
 
 zad31(W, C)
-
