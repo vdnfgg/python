@@ -41,6 +41,7 @@ def umieszczone():
             print(W[x], " - ", z, end=", ")
     print()
 
+
 def nieumieszczone():
     print("Elementy nieumieszczone w plecaku: ", end="")
     x = -1
@@ -50,8 +51,10 @@ def nieumieszczone():
             print(W[x], end=", ")
     print()
 
+
 umieszczone()
 nieumieszczone()
+
 
 def zad31(a, b):
     x = len(W)
@@ -68,5 +71,6 @@ def zad31(a, b):
     b = []
     b.append(C)
     return a, b
+
 
 zad31(W, C)

@@ -3,7 +3,7 @@ from random import *
 def losuj(n):
     tab = []
     seed()
-    for i in range(10):
+    for i in range(n):
         tab.append(randint(1, 20))
     return tab
 
@@ -57,14 +57,14 @@ print(f"Czy jest liczba różna od 2: {dzielenieprzez2(tab)}")
 # Zad 1.4
 
 # losowanie tablicy <0, 33)
-def losuj033(n):
+def losuj033():
     tab = []
     seed()
-    for i in range(10):
+    for i in range(11):
         tab.append(randint(0, 32))
     return tab
 
-tab033 = losuj033(11)
+tab033 = losuj033()
 
 print("Tablica <0,33): ", end="")
 print(tab033)
