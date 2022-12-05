@@ -62,30 +62,8 @@ def losuj(n):
         tab.append(randint(1, 10))
     return tab
 
+
 tab = losuj(20)
 print(tab)
+
 print(binarySearch2(tab, 2))
-
-
-def binarySearch3(array, target):
-    array.sort()
-    max = len(array) - 1
-    #print(max)
-    min = 0
-    #print(min)
-    i = 0
-    while max >= min:
-        i += 1
-        x = min + max
-        guess = x // 2
-        print("Index sprawdzaniej liczby: " + str(guess))
-        if array[guess] == target:
-            array.remove(guess)
-            while array
-            binarySearch(array, target)
-        else:
-            if array[guess] < target:
-                min = guess + 1
-            else:
-                max = guess - 1
-    return "Szukana liczba nie została odnaleziona."
