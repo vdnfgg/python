@@ -21,22 +21,5 @@ def sortadd(array, a):
         array = array[:index] + [a] + array[index:]
     return array
 
-print("#1")
 tab = [1, 2, 3, 5, 6]
 print(sortadd(tab, 4))
-
-
-def index(array, a):
-
-    # szukanie miejsca do wstawienia
-    for i in range(len(array)):
-        if array[i] > a:
-            index = i
-            break
-    return index
-
-print("#2")
-tab2 = tab.copy()
-x = index(tab, 4)
-tab2.insert(x, 4)
-print(tab2)
